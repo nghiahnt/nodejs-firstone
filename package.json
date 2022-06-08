@@ -1,0 +1,29 @@
+{
+    "name": "nodejs.demo",
+    "version": "1.0.0",
+    "description": "create a project demo about nodejs and using some module of nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nghiahnt/nodejs-firstone.git"
+    },
+    "keywords": [
+        "trongnghia"
+    ],
+    "author": "trongnghia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nghiahnt/nodejs-firstone/issues"
+    },
+    "homepage": "https://github.com/nghiahnt/nodejs-firstone#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
